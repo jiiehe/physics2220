@@ -11,3 +11,10 @@ C:\Users\Administrator\Desktop\homework\physics2220\calculation\calculation\obj\
 C:\Users\Administrator\Desktop\homework\physics2220\calculation\calculation\bin\Debug\calculation.exe
 C:\Users\Administrator\Desktop\homework\physics2220\calculation\calculation\bin\Debug\calculation.pdb
 C:\Users\Administrator\Desktop\homework\physics2220\calculation\calculation\obj\Debug\calculation.csprojResolveAssemblyReference.cache
+C:\Users\u0870268\Desktop\physics2220\calculation\calculation\bin\Debug\calculation.exe.config
+C:\Users\u0870268\Desktop\physics2220\calculation\calculation\bin\Debug\calculation.exe
+C:\Users\u0870268\Desktop\physics2220\calculation\calculation\bin\Debug\calculation.pdb
+C:\Users\u0870268\Desktop\physics2220\calculation\calculation\obj\Debug\calculation.csprojResolveAssemblyReference.cache
+C:\Users\u0870268\Desktop\physics2220\calculation\calculation\obj\Debug\calculation.csproj.CoreCompileInputs.cache
+C:\Users\u0870268\Desktop\physics2220\calculation\calculation\obj\Debug\calculation.exe
+C:\Users\u0870268\Desktop\physics2220\calculation\calculation\obj\Debug\calculation.pdb

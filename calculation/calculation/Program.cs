@@ -12,7 +12,9 @@ namespace calculation
         {
             //question 1
             //twopikqcalculation();
-            question6();
+            // question6();
+            // question7();
+            //question82();
         }
         public static void kq1q2rcalculation()
         {
@@ -49,9 +51,40 @@ namespace calculation
             Console.WriteLine(result);
             Console.Read();
         }
-
+        public static void question7()
+        {
+            Console.WriteLine(Math.Sin(Math.PI*30/180));
+            double g = 9.8;
+            double m = 0.001;
+            double tan = Math.Tan(Math.PI*14/180);
+            double q = 4 * Math.Pow(10, -8);
+            double k = 8.99 * Math.Pow(10, 9);
+            double lsin4 = 4 * Math.Pow(0.1, 2) * Math.Pow(Math.Sin(Math.PI * 14 / 180), 2);
+            double result = ((m * g * tan) / q) + ((k * q )/ lsin4);
+            Console.WriteLine(result/1000);
+            Console.Read();
+        }
+        public static void question8()
+        {
+            double E = 8.20 * Math.Pow(10, 4);
+            double area = 0.03;
+            double cos = Math.Cos(Math.PI * 180 / 180);
+            double result = E * area * cos;
+            Console.WriteLine(result);
+            Console.Read();
+        }
+        public static void question82()
+        {
+            double E = 8.20 * Math.Pow(10, 4);
+            double area = 0.06;
+            double cos = Math.Cos(Math.PI * 60 / 180);
+            double result = E * area * cos;
+            Console.WriteLine(result);
+            Console.Read();
+        }
 
     }
+ 
  
 
    
