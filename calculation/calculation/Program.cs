@@ -15,6 +15,7 @@ namespace calculation
             // question6();
             // question7();
             //question82();
+            question1();
         }
         public static void kq1q2rcalculation()
         {
@@ -82,7 +83,19 @@ namespace calculation
             Console.WriteLine(result);
             Console.Read();
         }
+        //hw2 since here
+        public static void question1()
+        {
+            double Q = 140 * Math.Pow(10, -6);
+            double e6 = 6 * (8.85 * Math.Pow(10, -12));
 
+            double result = Q / e6;
+            Console.WriteLine(result);
+           // Console.Read();
+            double result2 = result * 6;
+            Console.WriteLine(result2);
+            Console.Read();
+        }
     }
  
  
