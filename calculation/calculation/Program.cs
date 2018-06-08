@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace calculation
             // question6();
             // question7();
             //question82();
-            question1();
+            question28();
         }
         public static void kq1q2rcalculation()
         {
@@ -95,6 +96,62 @@ namespace calculation
             double result2 = result * 6;
             Console.WriteLine(result2);
             Console.Read();
+        }
+        public static void question5()
+        {
+            Point A = new Point(-0.200, -0.300);
+            Point B = new Point(0.400, 0.500);
+            double distance = B.y-A.y;
+            double result = distance * 310;
+            Console.WriteLine(result);
+            Console.Read();
+        }
+        public static void question26()
+        {
+            double q = 2.3 * Math.Pow(10, -6);
+            double E = 300;
+            double L = 1.5;
+            double m = 0.01;
+            double result = Math.Sqrt((q * E * L) / m);
+            Console.WriteLine(result);
+            Console.Read();
+        }
+        public static void question27()
+        {
+            double V = 3.40* Math.Pow(10, 3);
+            double E = 520;
+            double d = V / E;
+            Console.WriteLine(d);
+            double k = 8.99 * Math.Pow(10, 9);
+           //in this part, V should be a negative number, this is a super confuse part. 
+            double q = (V * d) / k;
+            Console.WriteLine(q);
+            Console.Read();
+        }
+        public static void question28()
+        {
+            double k = 8.99 * Math.Pow(10, 9);
+            double q1 = 50*Math.Pow(10,-9);
+            double q2 = -50*Math.Pow(10,-9);
+            double q3 = 25*Math.Pow(10,-9);
+            double r1 = 0.24;
+            double r2 = 0.12;
+            double r3 = 0.12;
+            double PE = (k * q1 * q2) / r1 +( k * q1 * q3) / r2 + (k * q2 * q3) / r3;
+            Console.WriteLine(PE);
+
+            Console.Read();
+
+        }
+    }
+    class Point
+    {
+        public double x;
+        public double y;
+        public Point(double x, double y)
+        {
+            this.x = x;
+            this.y = y;
         }
     }
  
