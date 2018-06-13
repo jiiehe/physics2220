@@ -10,7 +10,8 @@ namespace HW34
     {
         static void Main(string[] args)
         {
-            question310();
+            // question310();
+            question44();
         }
         public static void question31()
         {
@@ -84,6 +85,69 @@ namespace HW34
             Console.WriteLine(Ceq);
             Console.Read();
 
+        }
+        public static void question41()
+        {
+            double C1 = 4.9;
+            double C2 = 11.7;
+            double C3 = 2.05;
+            double C11 = 1 / (1 / C1 + 1 / C2);
+            Console.WriteLine(C11);
+            double C111 = 1 / (1 / C1 + 1 / C2);
+            Console.WriteLine(C111);
+            double Cp = C111 + C11 + C3;
+            Console.WriteLine(Cp);
+            double Cp1 = C2 + C2;
+            double Vp1 = (Cp1 / (Cp + Cp1)) * 52;
+            Console.WriteLine(Vp1);
+            double Q3 = C3 * Vp1;
+            Console.WriteLine(Q3);
+            Console.Read();
+        }
+        public static void question42()
+        {
+            double q1 = 2.5 * Math.Pow(10, -9);
+            double q2 = -2.5 * Math.Pow(10, -9);
+            Point A = new Point(-1.2, 1.3);
+            Point B = new Point(1.3, -1.3);
+            double px = -q1 * ((B.x - A.x)*Math.Pow(10,-3));
+            double py = -q1 * ((B.y - A.y)*Math.Pow(10,-3));
+            Console.WriteLine(px);
+            Console.WriteLine(py);
+           // Console.Read();
+            //31.85
+            double psolute = Math.Sqrt(Math.Pow(6.25, 2) + Math.Pow(6.5, 2)) * Math.Pow(10, -12);
+            double esolute = Math.Sqrt(Math.Pow(7.8, 2) + Math.Pow(4.9, 2)) * Math.Pow(10, 3);
+            double UMM = Math.Abs(psolute) * Math.Abs(esolute);
+            double Umm = psolute * esolute;
+            double result = UMM +Umm;
+            Console.WriteLine(result);
+            Console.Read();
+        }
+        public static void question44()
+        {
+            //part1 automatically get it.
+            double e0 = 8.85 * Math.Pow(10, -12);
+            double A = 1 * Math.Pow(10, -4);
+            double k1 = 4.9;
+            double k2 = 5.6;
+            double k3 = 2.6;
+            double d = 2 * Math.Pow(10, -3);
+            double C = (e0 * A / d) * (k1 / 2 + (k2 * k3 / (k2 + k3)));
+            Console.WriteLine(C);
+            Console.Read();
+
+        }
+    }
+    class Point
+    {
+        public double x;
+        public double y;
+
+        public Point(double x, double y)
+        {
+            this.x = x;
+            this.y = y;
         }
     }
 }
