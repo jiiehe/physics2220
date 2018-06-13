@@ -11,7 +11,7 @@ namespace HW34
         static void Main(string[] args)
         {
             // question310();
-            question44();
+            question49();
         }
         public static void question31()
         {
@@ -137,6 +137,70 @@ namespace HW34
             Console.WriteLine(C);
             Console.Read();
 
+        }
+        public static void question46()
+        {
+            double t = 1.04;
+            double current = 12 * Math.Pow(t, 2)+5;
+            Console.WriteLine(current);
+            double A = 1.9 * Math.Pow(10, -4);
+            double result = current / A;
+            //this one can help us get A, need to manual divide 1000 to get KA.
+
+            Console.WriteLine(result);
+            Console.Read();
+
+        }
+        public static void question47()
+        {
+            double m = 2.7 * Math.Pow(10, -3);
+            double d = 8.92 * Math.Pow(10, 3);
+            double p = 1.7 * Math.Pow(10, -8);
+            double r = 0.7;
+            double la = m / d;
+            double lda = r / p;
+            double l2 = la * lda;
+            double length = Math.Sqrt(l2);
+            Console.WriteLine(length);
+            double A = la / length;
+            double radius = Math.Sqrt(A / Math.PI);
+            double radius2 = radius * 2;
+            Console.WriteLine(radius2);
+            Console.Read();
+        }
+        public static void question48()
+        {
+            double m = 87.5;
+            double d = 2.7;
+            double l = Math.Pow(m / d, 1.0 / 3.0);
+            Console.WriteLine(l);
+            double al = 2.82 * Math.Pow(10, -8);
+            double R = al / (l*Math.Pow(10,-2));
+            Console.WriteLine(R);
+            double P = 1.0 * Math.Pow(10, -5);
+            double I = P / R;
+            double NA = 6.02 * Math.Pow(10, 23);
+            double c = 26.98;
+            double trans = 1.0 * Math.Pow(10, -6);
+            double n = (NA / c) * (d / trans);
+            double q = 1.6 * Math.Pow(10, -19);
+            double v = I / (n * q * Math.Pow(l * Math.Pow(10, -2), 2));
+            Console.WriteLine(v);
+            Console.Read();
+        }
+        public static void question49()
+        {
+            double coefficient = 0.0037;
+
+            double p0 = 1.59 * Math.Pow(10, -8);
+            double ps0 = 2.44 * Math.Pow(10, -8);
+            double next = 3.0 * p0/ps0;
+            double next1 = next - 1.0;
+            double rho = next1 / coefficient;
+            double result = 20.0 + rho;
+            Console.WriteLine(result);
+            Console.Read();
+            
         }
     }
     class Point
