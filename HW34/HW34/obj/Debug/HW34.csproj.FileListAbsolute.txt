@@ -5,3 +5,9 @@ C:\Users\u0870268\Desktop\physics2220\HW34\HW34\obj\Debug\HW34.csprojResolveAsse
 C:\Users\u0870268\Desktop\physics2220\HW34\HW34\obj\Debug\HW34.csproj.CoreCompileInputs.cache
 C:\Users\u0870268\Desktop\physics2220\HW34\HW34\obj\Debug\HW34.exe
 C:\Users\u0870268\Desktop\physics2220\HW34\HW34\obj\Debug\HW34.pdb
+C:\Users\Administrator\Desktop\homework\physics2220\HW34\HW34\bin\Debug\HW34.exe.config
+C:\Users\Administrator\Desktop\homework\physics2220\HW34\HW34\obj\Debug\HW34.exe
+C:\Users\Administrator\Desktop\homework\physics2220\HW34\HW34\obj\Debug\HW34.pdb
+C:\Users\Administrator\Desktop\homework\physics2220\HW34\HW34\bin\Debug\HW34.exe
+C:\Users\Administrator\Desktop\homework\physics2220\HW34\HW34\bin\Debug\HW34.pdb
+C:\Users\Administrator\Desktop\homework\physics2220\HW34\HW34\obj\Debug\HW34.csprojResolveAssemblyReference.cache

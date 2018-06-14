@@ -190,17 +190,31 @@ namespace HW34
         }
         public static void question49()
         {
-            double coefficient = 0.0037;
+            //about coefficient, silver:3.8, copper:3.9, gold: 3.4, Aluminum: 3.9
+            //Iron: 5.0, Tungsten: 4.5, Nichrome: 0.4, Platinum: 3.92;
+            double coefficient = 0.0034;
 
             double p0 = 1.59 * Math.Pow(10, -8);
             double ps0 = 2.44 * Math.Pow(10, -8);
-            double next = 3.0 * p0/ps0;
+            double next = (3.0 * p0)/ps0;
+            Console.WriteLine(next);
             double next1 = next - 1.0;
             double rho = next1 / coefficient;
             double result = 20.0 + rho;
             Console.WriteLine(result);
             Console.Read();
             
+        }
+        public static void question410()
+        {
+            double p = 600.0;
+            double v = 240.0;
+            double I = p / v;
+            Console.WriteLine(I);
+            double R = v / I;
+            Console.WriteLine(R);
+            Console.Read();
+
         }
     }
     class Point
