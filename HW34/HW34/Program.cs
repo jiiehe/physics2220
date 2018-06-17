@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// Name: Jin HE, uid: u0870268
+/// </summary>
 namespace HW34
 {
     class Program
