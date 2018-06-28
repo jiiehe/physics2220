@@ -14,7 +14,7 @@ namespace HW56
 
         static void Main(string[] args)
         {
-            question65();
+            question66();
         }
 
         public static void question63()
@@ -55,14 +55,38 @@ namespace HW56
         public static void question65()
         {
             double m = 3.2 * Math.Pow(10, -26);
-            double V = 828.0;
+            double deltaV = 828.0;
             double B = 0.820;
-            double q = 2.5 * Math.Pow(10, -26);
-            double deltaV = 1.6 * Math.Pow(10, -19);
-            double v = Math.Sqrt(2 * V* deltaV / m);
+           
+            double q = 1.6 * Math.Pow(10, -19);
+            double v = Math.Sqrt(2 * deltaV* q / m);
             Console.WriteLine(v);
-            double r = m * v / deltaV * B;
+            double r = m * v / (q * B);
             Console.WriteLine(r);
+            Console.Read();
+        }
+        /// <summary>
+        /// https://www.chegg.com/homework-help/questions-and-answers/cyclotron-see-figure-designed-accelerate-protons-outer-radius-0357-m-protons-emitted-nearl-q3973883
+        /// </summary>
+        public static void question66()
+        {
+            double r = 0.650;
+            double deltaV = 600;
+            double B = 0.480;
+            double mp = 1.67 * Math.Pow(10, -27);
+            double q = 1.6 * Math.Pow(10, -19);
+            double w = q * B /(mp);
+            Console.WriteLine(w);
+            double v = B * q * r / mp;
+            Console.WriteLine(v);
+            double third = (1.0 / 2.0) * mp * Math.Pow(v, 2);
+            double temp = third / q;
+            //need wolframalpha to get final answer using the third value.
+            Console.WriteLine(third);
+            double fourth = (1.0 / 2.0) * ((third) / (q * deltaV));
+            Console.WriteLine(fourth);
+            double final = fourth * (2.0 * Math.PI / w);
+            Console.WriteLine(final);
             Console.Read();
         }
     }

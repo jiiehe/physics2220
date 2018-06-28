@@ -5,3 +5,9 @@ C:\Users\u0870268\Desktop\physics2220\HW56\HW56\obj\Debug\HW56.csprojResolveAsse
 C:\Users\u0870268\Desktop\physics2220\HW56\HW56\obj\Debug\HW56.csproj.CoreCompileInputs.cache
 C:\Users\u0870268\Desktop\physics2220\HW56\HW56\obj\Debug\HW56.exe
 C:\Users\u0870268\Desktop\physics2220\HW56\HW56\obj\Debug\HW56.pdb
+C:\Users\Administrator\Desktop\homework\physics2220\HW56\HW56\bin\Debug\HW56.exe.config
+C:\Users\Administrator\Desktop\homework\physics2220\HW56\HW56\obj\Debug\HW56.exe
+C:\Users\Administrator\Desktop\homework\physics2220\HW56\HW56\obj\Debug\HW56.pdb
+C:\Users\Administrator\Desktop\homework\physics2220\HW56\HW56\bin\Debug\HW56.exe
+C:\Users\Administrator\Desktop\homework\physics2220\HW56\HW56\bin\Debug\HW56.pdb
+C:\Users\Administrator\Desktop\homework\physics2220\HW56\HW56\obj\Debug\HW56.csprojResolveAssemblyReference.cache
