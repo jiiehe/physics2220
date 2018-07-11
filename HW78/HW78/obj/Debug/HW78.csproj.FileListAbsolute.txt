@@ -1,0 +1,7 @@
+C:\Users\u0870268\Desktop\physics2220\HW78\HW78\bin\Debug\HW78.exe.config
+C:\Users\u0870268\Desktop\physics2220\HW78\HW78\bin\Debug\HW78.exe
+C:\Users\u0870268\Desktop\physics2220\HW78\HW78\bin\Debug\HW78.pdb
+C:\Users\u0870268\Desktop\physics2220\HW78\HW78\obj\Debug\HW78.csprojResolveAssemblyReference.cache
+C:\Users\u0870268\Desktop\physics2220\HW78\HW78\obj\Debug\HW78.csproj.CoreCompileInputs.cache
+C:\Users\u0870268\Desktop\physics2220\HW78\HW78\obj\Debug\HW78.exe
+C:\Users\u0870268\Desktop\physics2220\HW78\HW78\obj\Debug\HW78.pdb

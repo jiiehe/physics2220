@@ -10,7 +10,7 @@ namespace HW78
     {
         static void Main(string[] args)
         {
-            question710();
+            question89();
         }
         /// <summary>
         /// https://www.chegg.com/homework-help/questions-and-answers/long-straight-wire-lies-horizontal-table-carries-current-185-q2945774
@@ -133,6 +133,43 @@ namespace HW78
             double r = 0.05;
             double F = ((q * Math.Pow(R,2)) / (2.0 * r)) * (27.0 * Math.Pow(2.0, 2) - 4.0 * 2.0);
             Console.WriteLine(F);
+            Console.Read();
+        }
+        /// <summary>
+        /// https://www.chegg.com/homework-help/questions-and-answers/consider-circuit-figure-p3217-taking-script-e-6-v-l-500-mh-r-400--figure-p3217-inductive-t-q3787157
+        /// </summary>
+        public static void question86()
+        {
+            double L = 2 * Math.Pow(10, -3);
+            double R = 3.0;
+            double C = L / R;
+            Console.WriteLine(C);
+            double second = 2.0 * (1.0-Math.Pow(Math.E,-0.25*1.5));
+            Console.WriteLine(second);
+
+
+
+            Console.Read();
+        }
+        public static void question88()
+        {
+            double L = 0.640;
+            double e = 600.0;
+            double R = 30.0;
+            double U = L * Math.Pow(e, 2) / (8 * Math.Pow(R, 2));
+            Console.WriteLine(U);
+            Console.Read();
+        }
+        /// <summary>
+        /// https://www.chegg.com/homework-help/questions-and-answers/assume-magnitude-magnetic-field-outside-sphere-radius-r-b-b0-r-r-2-b0-constant-determine-t-q6131283
+        /// </summary>
+        public static void question89()
+        {
+            double R = 6.1 * Math.Pow(10, 6);
+            double B = 5.1 * Math.Pow(10, -5);
+            double u0 = 4.0 * Math.PI * Math.Pow(10, -7);
+            double result = (2 * Math.PI * Math.Pow(R, 3) * Math.Pow(B, 2)) / u0;
+            Console.WriteLine(result);
             Console.Read();
         }
     }
