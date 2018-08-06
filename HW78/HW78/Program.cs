@@ -12,9 +12,7 @@ namespace HW78
         {
             question89();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/long-straight-wire-lies-horizontal-table-carries-current-185-q2945774
-        /// </summary>
+       
         public static void question71()
         {
             double v = 1.7 * Math.Pow(10, 4);
@@ -28,9 +26,7 @@ namespace HW78
             Console.WriteLine(result);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/magnetic-coils-tokamak-fusion-reactor-shape-ofa-toroid-inner-radius-0700-m-outer-radius-of-q205336
-        /// </summary>
+     
         public static void question72()
         {
             double u0 = 4 * Math.PI * Math.Pow(10, -7);
@@ -45,11 +41,7 @@ namespace HW78
             Console.Read();
         }
 
-        //for question3, http://www.lehman.edu/faculty/anchordoqui/169-P8-sol.pdf
-
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/single-turn-square-loop-wire-200-cm-edge-carries-clockwise-current-0150--loop-inside-solen-q1781253
-        /// </summary>
+        
         public static void question74()
         {
             double I2 = 0.25;
@@ -78,9 +70,7 @@ namespace HW78
 
 
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/loop-wire-shape-rectangle-width-w-andlength-l-long-straight-wire-carrying-currenti-lie-tab-q289961
-        /// </summary>
+       
         public static void question76()
         {
             double u0 = 4.0 * Math.PI * Math.Pow(10, -7);
@@ -92,9 +82,7 @@ namespace HW78
             Console.WriteLine(e);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/coil-15-turns-radius-100-cm-surrounds-long-solenoid-radius-210-cm-100-103-turns-meter-see--q3861391
-        /// </summary>
+      
         public static void question77()
         {
             double N = 18.0;
@@ -106,9 +94,7 @@ namespace HW78
             Console.WriteLine(step);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/conducting-rod-length-script-moves-two-horizontal-frictionless-rails-figure--constant-forc-q1196810
-        /// </summary>
+     
         public static void question78()
         {
             double R = 9.0;
@@ -123,9 +109,7 @@ namespace HW78
             Console.WriteLine(Math.Pow(I, 2.0));
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/situation-described-figure-p3132-magnetic-fieldchanges-time-according-expression-b-300t3-3-q371825
-        /// </summary>
+       
         public static void question710()
         {
             double q = 1.6 * Math.Pow(10, -19);
@@ -135,9 +119,7 @@ namespace HW78
             Console.WriteLine(F);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/consider-circuit-figure-p3217-taking-script-e-6-v-l-500-mh-r-400--figure-p3217-inductive-t-q3787157
-        /// </summary>
+       
         public static void question86()
         {
             double L = 2 * Math.Pow(10, -3);
@@ -160,9 +142,7 @@ namespace HW78
             Console.WriteLine(U);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/assume-magnitude-magnetic-field-outside-sphere-radius-r-b-b0-r-r-2-b0-constant-determine-t-q6131283
-        /// </summary>
+     
         public static void question89()
         {
             double R = 6.1 * Math.Pow(10, 6);
