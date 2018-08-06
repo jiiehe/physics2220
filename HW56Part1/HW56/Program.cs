@@ -12,9 +12,7 @@ namespace HW56
         {
             question58();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/potential-difference-across-filament-lamp-maintained-constant-level-equilibrium-temperatur-q1075235
-        /// </summary>
+        
         public static void question52()
         {
 
@@ -27,12 +25,7 @@ namespace HW56
             Console.WriteLine(result);
             Console.Read();
         }
-        //question 4 link:
-        //https://www.chegg.com/homework-help/questions-and-answers/review-problem-parallel-plate-capacitorconsists-square-plates-edge-length-thatare-separate-q772207
-
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/automobile-battery-emf-126-v-internal-resistance-00600--headlights-together-present-equiva-q1168750
-        /// </summary>
+        
         public static void question55()
         {
             double E = 12.6;
@@ -47,9 +40,7 @@ namespace HW56
             Console.Read();
 
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/calculate-power-delivered-resistor-circuit-shown-figure--let-r1-300-r2-200-v-120v-resistor-q2172135
-        /// </summary>
+       
         public static void question56()
         {
             double R1 = 2.0;
@@ -74,9 +65,7 @@ namespace HW56
             Console.Read();
             
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/two-resistors-connected-series-equivalent-resistance-690-ohms-connected-parallel-equivalen-q186870
-        /// </summary>
+     
         public static void question57()
         {
             double c1 = 562;
@@ -87,9 +76,7 @@ namespace HW56
             Console.WriteLine(R21);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/circuit-figure-switch-s-open-long-time-suddenly-closed-take-100-v-r1-500-k-r2-150-k-c-100--q1642507
-        /// </summary>
+     
         public static void question59()
         {
             double R = 105;
