@@ -8,8 +8,7 @@ namespace HW56
 {
     class Program
     {
-        //question2 link: https://www.chegg.com/homework-help/questions-and-answers/electron-velocity-180-km-s-positive-x-direction-acceleration-200-1012-m-s2-positive-z-dire-q21371767?trackid=77a5d669&strackid=357b61bf&ii=8
-
+        
 
 
         static void Main(string[] args)
@@ -27,9 +26,7 @@ namespace HW56
             Console.Read();
         }
 
-        /// <summary>
-        /// https://www.hudson.k12.oh.us/cms/lib08/OH01914911/Centricity/Domain/402/Chap%2029%20group%202.pdf
-        /// </summary>
+      
         public static void question64()
         {
             double m = 0.1;
@@ -49,9 +46,7 @@ namespace HW56
             Console.WriteLine(final1);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/singly-charged-positive-ion-mass-250-10-26-kg-accelerated-potential-difference-250v-ion-en-q1186125
-        /// </summary>
+        
         public static void question65()
         {
             double m = 3.2 * Math.Pow(10, -26);
@@ -65,9 +60,7 @@ namespace HW56
             Console.WriteLine(r);
             Console.Read();
         }
-        /// <summary>
-        /// https://www.chegg.com/homework-help/questions-and-answers/cyclotron-see-figure-designed-accelerate-protons-outer-radius-0357-m-protons-emitted-nearl-q3973883
-        /// </summary>
+        
         public static void question66()
         {
             double r = 0.650;
